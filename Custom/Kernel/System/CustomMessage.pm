@@ -184,7 +184,7 @@ sub SendMessageSlackAgent {
 		"type" => "section",
 		"text" => {
 			"type" => "mrkdwn",
-			"text" => "*<$Param{TicketURL}|OTRS#$Param{TicketNumber}>*\n\n$Param{Message}"
+			"text" => "*<$Param{TicketURL}|$Param{TicketNumber}>*\n\n$Param{Message}"
 		}
 		},
 		{
