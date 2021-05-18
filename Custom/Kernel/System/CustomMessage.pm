@@ -71,7 +71,7 @@ sub SendMessageTelegramAgent {
 	my $p = {
 			chat_id=>$Param{TelegramAgentChatID},
 			parse_mode=>'HTML',
-			text=>$Param{Message},
+			text=>"$Param{Message}",
 			reply_markup => {
 				#resize_keyboard => \1, # \1 = true when JSONified, \0 = false
 				inline_keyboard => [
