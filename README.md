@@ -1,5 +1,5 @@
 # OTRS CustomMessage API
-- Built For OTRS CE v6
+- Built For OTRS CE v6 / Znuny LTS
 - API for custom message delivery (telegram, slack, rocketchat) via Ticket Notification Event  
 
 1. For Module: https://github.com/mo-azfar/OTRS-Extended-Ticket-Notification    
